@@ -1,0 +1,67 @@
+########"
+#
+# Configuration file for /users/tvarol/HGamAnalysis/HGamTools/yybbaux analysis
+#
+########"
+
+
+##################################
+# Job steering setup
+
+OutputDir:        yybbaux_DATE
+SampleName:       sample
+InputFileList:    input_data.txt
+BaseConfig:       HGamAnalysisFramework/HGamRel20p7.config
+
+Include:          HGamAnalysisFramework/MCSamples.config
+##################################
+# HgammaAnalysis setup
+
+
+##################################
+# Photon calibration, smearing and selection settings
+
+
+##################################
+# Jet calibration, smearing and selection settings
+
+
+##################################
+# What to save in the MxAOD
+
+
+##################################                                                                                                              
+# Input File
+#InputFile: /eos/atlas/atlascerngroupdisk/phys-higgs/HSG1/MxAOD/h015d/mc15c/mc15c.MGPy8_hh_yybb_lambda00.MxAODDetailed.p2908.h015d.root
+#InputFile: /eos/atlas/atlascerngroupdisk/phys-higgs/HSG1/MxAOD/h015d/mc15c/mc15c.MGPy8_hh_yybb_minus_lambda01.MxAODDetailed.p2908.h015d.root
+#InputFile: /eos/atlas/atlascerngroupdisk/phys-higgs/HSG1/MxAOD/h015d/mc15c/mc15c.MGPy8_hh_yybb_minus_lambda02.MxAODDetailed.p2908.h015d.root
+#InputFile: /eos/atlas/atlascerngroupdisk/phys-higgs/HSG1/MxAOD/h015d/mc15c/mc15c.MGPy8_hh_yybb_minus_lambda04.MxAODDetailed.p2908.h015d.root
+#InputFile: /eos/atlas/atlascerngroupdisk/phys-higgs/HSG1/MxAOD/h015d/mc15c/mc15c.MGPy8_hh_yybb_minus_lambda06.MxAODDetailed.p2908.h015d.root
+#InputFile: /eos/atlas/atlascerngroupdisk/phys-higgs/HSG1/MxAOD/h015d/mc15c/mc15c.MGPy8_hh_yybb_minus_lambda10.MxAODDetailed.p2908.h015d.root
+#InputFile: /eos/atlas/atlascerngroupdisk/phys-higgs/HSG1/MxAOD/h015d/mc15c/mc15c.MGPy8_hh_yybb_plus_lambda01.MxAODDetailed.p2908.h015d.root
+#InputFile: /eos/atlas/atlascerngroupdisk/phys-higgs/HSG1/MxAOD/h015d/mc15c/mc15c.MGPy8_hh_yybb_plus_lambda02.MxAODDetailed.p2908.h015d.root
+#InputFile: /eos/atlas/atlascerngroupdisk/phys-higgs/HSG1/MxAOD/h015d/mc15c/mc15c.MGPy8_hh_yybb_plus_lambda04.MxAODDetailed.p2908.h015d.root
+#InputFile: /eos/atlas/atlascerngroupdisk/phys-higgs/HSG1/MxAOD/h015d/mc15c/mc15c.MGPy8_hh_yybb_plus_lambda06.MxAODDetailed.p2908.h015d.root
+#InputFile: /eos/atlas/atlascerngroupdisk/phys-higgs/HSG1/MxAOD/h015d/mc15c/mc15c.MGPy8_hh_yybb_plus_lambda10.MxAODDetailed.p2908.h015d.root
+#InputFile: /eos/atlas/atlascerngroupdisk/phys-higgs/HSG1/MxAOD/h015d/mc15c/mc15c.aMCnloHwpp_hh_yybb.MxAODDetailed.p2669.h015d.root 
+#InputFile: /eos/atlas/user/e/ebrost/public/MxAODs/h015d_reweight/user.ebrost.mc15c.aMCnloHwpp_hh_yybb.MxAOD-yybbDetailed.p2669.h015d_MxAOD.root/user.ebrost.12422710._000001.MxAOD.root
+#InputFile: /eos/atlas/user/e/ebrost/public/MxAODs/SM_hh_MC_LO/user.ebrost.mc15c.MGPy8_sm_hh_yybb.MxAOD-yybbDetailed.p2669.h015d_MxAOD.root/user.ebrost.12307423._000001.MxAOD.root
+###InputFile: /eos/atlas/user/e/ebrost/public/MxAODs/h015d_bugfix_lambda/user.ebrost.mc15c.aMCnloHwpp_hh_yybb.MxAOD.p2669.h015d_bugfix_MxAOD.root/user.ebrost.12577740._000001.MxAOD.root
+#InputFile: /eos/atlas/user/e/ebrost/public/MxAODs/h015d_bugfix_lambda/user.ebrost.mc15c.MGPy8_hh_yybb_lambda00.MxAOD-yybbDetailed.p2908.h015d_bugfix_MxAOD.root/user.ebrost.12651303._000001.MxAOD.root
+#InputFile: /eos/atlas/user/e/ebrost/public/MxAODs/h015d_bugfix_lambda/user.ebrost.mc15c.MGPy8_hh_yybb_minus_lambda01.MxAOD-yybbDetailed.p2908.h015d_bugfix_MxAOD.root/user.ebrost.12651436._000001.MxAOD.root
+#InputFile: /eos/atlas/user/e/ebrost/public/MxAODs/h015d_bugfix_lambda/user.ebrost.mc15c.MGPy8_hh_yybb_minus_lambda02.MxAOD-yybbDetailed.p2908.h015d_bugfix_MxAOD.root/user.ebrost.12651474._000001.MxAOD.root  
+#InputFile: /eos/atlas/user/e/ebrost/public/MxAODs/h015d_bugfix_lambda/user.ebrost.mc15c.MGPy8_hh_yybb_minus_lambda02.MxAOD-yybbDetailed.p2908.h015d_bugfix_MxAOD.root/user.ebrost.12651474._000002.MxAOD.root
+#InputFile: /eos/atlas/user/e/ebrost/public/MxAODs/h015d_bugfix_lambda/user.ebrost.mc15c.MGPy8_hh_yybb_minus_lambda04.MxAOD-yybbDetailed.p2908.h015d_bugfix_MxAOD.root/user.ebrost.12651483._000001.MxAOD.root
+#InputFile: /eos/atlas/user/e/ebrost/public/MxAODs/h015d_bugfix_lambda/user.ebrost.mc15c.MGPy8_hh_yybb_minus_lambda06.MxAOD-yybbDetailed.p2908.h015d_bugfix_MxAOD.root/user.ebrost.12651491._000001.MxAOD.root
+#InputFile: /eos/atlas/user/e/ebrost/public/MxAODs/h015d_bugfix_lambda/user.ebrost.mc15c.MGPy8_hh_yybb_minus_lambda10.MxAOD-yybbDetailed.p2908.h015d_bugfix_MxAOD.root/user.ebrost.12651505._000001.MxAOD.root
+#InputFile: /eos/atlas/user/e/ebrost/public/MxAODs/h015d_bugfix_lambda/user.ebrost.mc15c.MGPy8_hh_yybb_plus_lambda01.MxAOD-yybbDetailed.p2908.h015d_bugfix_MxAOD.root/user.ebrost.12651526._000001.MxAOD.root
+#InputFile: /eos/atlas/user/e/ebrost/public/MxAODs/h015d_bugfix_lambda/user.ebrost.mc15c.MGPy8_hh_yybb_plus_lambda02.MxAOD-yybbDetailed.p2908.h015d_bugfix_MxAOD.root/user.ebrost.12651540._000001.MxAOD.root
+#InputFile: /eos/atlas/user/e/ebrost/public/MxAODs/h015d_bugfix_lambda/user.ebrost.mc15c.MGPy8_hh_yybb_plus_lambda04.MxAOD-yybbDetailed.p2908.h015d_bugfix_MxAOD.root/user.ebrost.12651565._000001.MxAOD.root
+#InputFile: /eos/atlas/user/e/ebrost/public/MxAODs/h015d_bugfix_lambda/user.ebrost.mc15c.MGPy8_hh_yybb_plus_lambda06.MxAOD-yybbDetailed.p2908.h015d_bugfix_MxAOD.root/user.ebrost.12651608._000001.MxAOD.root
+InputFile: /eos/atlas/user/e/ebrost/public/MxAODs/h015d_bugfix_lambda/user.ebrost.mc15c.MGPy8_hh_yybb_plus_lambda10.MxAOD-yybbDetailed.p2908.h015d_bugfix_MxAOD.root/user.ebrost.12651668._000001.MxAOD.root
+
+
+
+##################################                                                                                                                  
+# How often to print out messages                                                                                          
+#OutputMessage.ProcessedEventsInterval: -1
